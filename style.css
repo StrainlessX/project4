@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: "Handjet";
+    src: url("Handjet/Handjet-VariableFont_ELGR,ELSH,wght.ttf")
+
+}
+
+body {
+	font-family: "Handjet";
+	font-size: 48px;
+	text-align: center;
+	background-color: #8fb3e1;
+}
+h2 {
+	font-size: 20px;
+}
+
+#generateButton {
+	font-family: "Handjet";
+	font-size: 40px;
+    margin-top: 20px; 
+}
+
+#instruction {
+    background-color: #FFFFFF; /* 设置白色背景 */
+    padding: 10px; /* 添加内边距 */
+    margin: 20px auto; /* 居中显示 */
+    max-width: 80%; /* 最大宽度为80% */
+    border-radius: 5px; /* 添加圆角 */
+}
+
+.cheese {
+    position: absolute;
+    display: none;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+button{
+	height: 48px;
+	vertical-align: middle;
+}
+
+#emoji {
+	font-size: 48px;
+}
+
+form {
+	display:inline;
+
+}
+
+input[type="text"] {
+	height: 48px;
+	font-size:48px;
+}
